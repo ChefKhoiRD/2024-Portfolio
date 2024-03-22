@@ -1,12 +1,9 @@
 {
-	"homepage": "http://ChefKhoiRD.github.io/2024-Portfolio",
-	"name": "reactfolio",
+	"name": "2024-portfolio",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Khoi Vu"
 	},
 	"license": "MIT",
 	"private": true,
@@ -32,9 +29,7 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -57,8 +52,5 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
-	},
-	"devDependencies": {
-		"gh-pages": "^6.1.1"
 	}
 }
