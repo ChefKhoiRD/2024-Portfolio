@@ -34,6 +34,7 @@
 .homepage-first-area-right-side {
 	display: flex;
 	align-items: center;
+	margin-bottom: 2rem;
 }
 
 .homepage-image-container {
@@ -75,7 +76,7 @@
 
 .homepage-projects {
 	flex-basis: 300px;
-	padding-top: 40px;
+	padding-top: 60px;
 }
 
 .homepage-articles {

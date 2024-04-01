@@ -1,3 +1,5 @@
+@import "../../data/styles.css";
+
 .contact-logo-container {
 	display: flex;
 	justify-content: left;
@@ -17,22 +19,94 @@
 	width: 100% !important;
 }
 
+.body-container {
+	display: flex;
+	justify-content: space-between;
+}
+
 .contact-container {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
 	margin-top: 120px;
 }
 
-
 .socials-container {
 	display: flex;
-	flex-direction: column;
-	margin-top: 80px;
+	flex-direction: column-reverse;
+	margin-bottom: 60px;
+	width: 30vw;
 }
 
 .contact-socials {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	margin-left: 8rem;
+}
+
+/* Contact Form */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+form {
+    padding-top: 25px;
+    width: 400px;
+}
+
+label {
+    font-weight: 700;
+}
+
+input, textarea {
+    width: 100%;
+    color: #242424;
+    border-radius: 5px;
+    border-style: groove;
+    border-width: thin;
+}
+
+.name-input, .email-input, .message-input {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#name, #email {
+    height: 30px;
+}
+
+.submit-button {
+    float: right;
+    background: var(--tertiary-color);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+
+    -webkit-transition: background-color 0.2s;
+    -moz-transition:    background-color 0.2s;
+    -ms-transition:     background-color 0.2s;
+    -o-transition:      background-color 0.2s;
+    transition:         background-color 0.2s;
+}
+
+.submit-button:hover {
+    background: var(--secondary-color);
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
 }

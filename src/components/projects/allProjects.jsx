@@ -9,13 +9,13 @@ import "./styles/allProjects.css";
 const AllProjects = () => {
 	return (
 		<div className="all-projects-container">
-			{INFO.projects.map((project, index) => (
+			{INFO.allProjects.map((allProjects, index) => (
 				<div className="all-projects-project" key={index}>
 					<Project
-						title={project.title}
-						description={project.description}
-						linkText={project.linkText}
-						link={project.link}
+						title={allProjects.title}
+						description={allProjects.description}
+						linkText={allProjects.linkText}
+						link={allProjects.link}
 					/>
 				</div>
 			))}

@@ -7,7 +7,6 @@ import Logo from "../components/common/logo";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
-import SEO from "../data/seo";
 
 import "./styles/projects.css";
 
@@ -16,17 +15,11 @@ const Projects = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "projects");
-
 	return (
 		<React.Fragment>
 			<Helmet>
 				<title>{`Projects | ${INFO.main.title}`}</title>
-				<meta name="description" content={currentSEO.description} />
-				<meta
-					name="keywords"
-					content={currentSEO.keywords.join(", ")}
-				/>
+				<meta name="description" />
 			</Helmet>
 
 			<div className="page-content">
@@ -39,21 +32,16 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+							My Projects
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
-							and I'm proud of the progress I've made. Many of
-							these projects are open-source and available for
-							others to explore and contribute to. If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
+							Welcome, this is where I showcase a diverse array of endeavors that mark my growth and accomplishments. 
+							Many of these projects are open-source, inviting exploration and collaboration from fellow enthusiasts like you. Feel free 
+							to dive into the codebase of any project that catches your eye and share your insights, suggestions, or contributions. 
+							Collaboration is a cornerstone of my development journey, and I value the opportunity to learn and grow alongside others. 
+							Your feedback is not only appreciated but integral to the continual refinement of these projects. Thank you for joining me 
+							on this journey of innovation and discovery
 						</div>
 
 						<div className="projects-list">

@@ -9,10 +9,10 @@ import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
+import HomepageProjects from "../components/projects/homepageProjects";
+import Education from "../components/homepage/education";
 
 import INFO from "../data/user";
-import SEO from "../data/seo";
 
 import "./styles/homepage.css";
 
@@ -49,8 +49,6 @@ const Homepage = () => {
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, [logoSize, oldLogoSize]);
 
-	const currentSEO = SEO.find((item) => item.page === "home");
-
 	const logoStyle = {
 		display: "flex",
 		position: stayLogo ? "fixed" : "relative",
@@ -65,11 +63,7 @@ const Homepage = () => {
 		<React.Fragment>
 			<Helmet>
 				<title>{INFO.main.title}</title>
-				<meta name="description" content={currentSEO.description} />
-				<meta
-					name="keywords"
-					content={currentSEO.keywords.join(", ")}
-				/>
+				<meta name="description"/>
 			</Helmet>
 
 			<div className="page-content">
@@ -87,8 +81,10 @@ const Homepage = () => {
 								<div className="title homepage-title">
 									{INFO.homepage.title}
 								</div>
-
-								<div className="subtitle homepage-subtitle">
+								<div className="position homepage-title">
+									{INFO.homepage.position}
+								</div>
+								<div className="subtitle homepage-title">
 									{INFO.homepage.description}
 								</div>
 							</div>
@@ -142,12 +138,19 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
-							<AllProjects />
+							<HomepageProjects />
 						</div>
+						
 
 						<div className="homepage-after-title">
 							<div className="homepage-works">
 								<Works />
+							</div>
+						</div>
+
+						<div className="homepage-after-title">
+							<div className="homepage-works">
+								<Education />
 							</div>
 						</div>
 
