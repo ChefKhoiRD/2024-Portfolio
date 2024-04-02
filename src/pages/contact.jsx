@@ -120,12 +120,15 @@ const Contact = () => {
 
                                 </form>
 
-                            <div className="socials-container">
+                            <div className="contact-socials-container">
                                 <div className="contact-socials">
                                     <Socials />
                                 </div>
                             </div>
                         </div>
+                        <div className="mobile-contact-socials">
+                                <Socials />
+                            </div>
 					</div>
 
 

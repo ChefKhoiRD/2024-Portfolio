@@ -122,11 +122,12 @@
 	.homepage-first-area-right-side {
 		width: 100%;
 		order: 1;
+		margin-bottom: 2rem;
 	}
 
 	.homepage-image-container {
 		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-bottom: 6rem;
 		margin-left: 10px;
 		order: 1;
 	}
