@@ -16,7 +16,19 @@ const Educations = () => {
 						<div className="educations">
 							<img
 								src="./UofU.png"
-								alt="zions"
+								alt="U of U Logo"
+								className="education-image"
+							/>
+							<div className="education-title">University of Utah Professional Education Boot Camps</div>
+							<div className="education-subtitle">
+								Certificate, Web Development
+							</div>
+							<div className="education-duration">2022</div>
+						</div>
+						<div className="educations">
+							<img
+								src="./slcc-logo.jpg"
+								alt="SLCC Logo"
 								className="education-image"
 							/>
 							<div className="education-title">University of Utah Professional Education Boot Camps</div>

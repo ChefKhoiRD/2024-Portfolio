@@ -5,26 +5,22 @@ const INFO = {
 		email: "vu.khoi6111@gmail.com",
 		logo: "../logo.jpg",
 	},
-
 	socials: {
 		instagram: "https://www.instagram.com/chefkhoi.rd/?hl=en",
 		github: "https://github.com/ChefKhoiRD",
 		linkedin: "https://www.linkedin.com/in/khoi-vu61/",
 	},
-
 	homepage: {
 		title: "Khoi Vu",
 		position: "Full-stack web developer",
 		description:
 			"I specialize in Full-Stack web development, with a strong focus on front-end technologies. My proficiency lies in crafting robust, scalable, and secure web applications through an array of frameworks and technologies. I thrive on tackling intricate challenges while refining and expanding my skill set. My dedication to producing quality code and adhering to industry standards reflects my commitment to excellence. Continuously seeking fresh challenges, I'm eager to further my development journey.",
 	},
-
 	about: {
 		title: "I'm Khoi Vu",
 		description:
 			"As a Full Stack Web Developer, I integrate real-world customer service insights into crafting user-centric web applications. I've honed my skills through a rigorous program in Full Stack Development at Trilogy Coding Bootcamp hosted by the University of Utah. Proficient in React, JavaScript, HTML, CSS, and MERN stack technologies, I prioritize innovation by embracing and mastering the latest tools in the ever-evolving tech landscape. My approach centers on delivering User-centered, intuitive and impactful applications that resonate with customers.",
 	},
-
 	homepageProjects: [
 		{
 			title: "Perch - In progress",
@@ -33,7 +29,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/ChefKhoiRD/perch-site",
 		},
-
 		{
 			title: "Hearts - In progress",
 			description:
@@ -41,7 +36,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/ChefKhoiRD/hearts-game",
 		},
-
 		{
 			title: "Pokedex",
 			description:
@@ -49,7 +43,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/ChefKhoiRD/PokemonProject",
 		},
-
 		{
 			title: "Under A Tack",
 			description:
@@ -57,7 +50,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/Avenix17/Project-3-Under-a-tack",
 		},
-
 		{
 			title: "Note Taker",
 			description:
@@ -65,7 +57,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/ChefKhoiRD/note-taker-app",
 		},	
-
 		{
 			title: "Ecommerce Backend",
 			description:
@@ -73,9 +64,7 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/ChefKhoiRD/ecommerce-backend",
 		},
-		
 	],
-
 	allProjects: [
 		{
 			title: "Perch - In progress",
@@ -84,7 +73,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/ChefKhoiRD/perch-site",
 		},
-
 		{
 			title: "Hearts - In progress",
 			description:
@@ -92,7 +80,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/ChefKhoiRD/hearts-game",
 		},
-
 		{
 			title: "Pokedex",
 			description:
@@ -100,7 +87,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/ChefKhoiRD/PokemonProject",
 		},
-
 		{
 			title: "Under A Tack",
 			description:
@@ -108,7 +94,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/Avenix17/Project-3-Under-a-tack",
 		},
-
 		{
 			title: "Note Taker",
 			description:
@@ -116,7 +101,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/ChefKhoiRD/note-taker-app",
 		},	
-
 		{
 			title: "Team Generator",
 			description:
@@ -124,7 +108,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/ChefKhoiRD/team-gen",
 		},
-
 		{
 			title: "Ecommerce Backend",
 			description:
@@ -132,7 +115,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/ChefKhoiRD/ecommerce-backend",
 		},
-		
 		{
 			title: "Social Network API",
 			description:
@@ -140,7 +122,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/ChefKhoiRD/social-network-api",
 		},
-		
 		{
 			title: "Text Editor",
 			description:
@@ -148,7 +129,6 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/ChefKhoiRD/text-editor",
 		},
-		
 		{
 			title: "Employee Tracker",
 			description:

@@ -16,45 +16,43 @@ const Works = () => {
 						<div className="works-body">
 							<div className="work">
 								<img
+									src="./slcc-logo.jpg"
+									alt="SLCC Logo"
+									className="work-image"
+								/>
+								<div className="work-title">Salt Lake Community College</div>
+								<div className="work-subtitle">
+									Web Developer
+								</div>
+								<div className="work-duration">August 2024 - Present</div>
+							</div>
+						</div>
+						<div className="works-body">
+							<div className="work">
+								<img
 									src="./zions.jpeg"
-									alt="zions"
+									alt="Zions Logo"
 									className="work-image"
 								/>
 								<div className="work-title">Zions Bancorporation</div>
 								<div className="work-subtitle">
-									Front-End Web Developer
+									Front-End Web Developer Intern
 								</div>
-								<div className="work-duration">2023 - Present</div>
+								<div className="work-duration">May 2023 - June 2024</div>
 							</div>
 						</div>
-
-						<div className="works-body">
-							<div className="work">
-								<img
-									src="./tlj-logo.webp"
-									alt="zions"
-									className="work-image"
-								/>
-								<div className="work-title">Tous Les Jours</div>
-								<div className="work-subtitle">
-									Barista
-								</div>
-								<div className="work-duration">2022 - 2023</div>
-							</div>
-						</div>
-
 						<div className="works-body">
 							<div className="work">
 								<img
 									src="./ruths-chris.png"
-									alt="zions"
+									alt="Ruths Chris Logo"
 									className="work-image"
 								/>
 								<div className="work-title">Ruths Chris Steak House</div>
 								<div className="work-subtitle">
 									Server Assistant
 								</div>
-								<div className="work-duration">2020 - 2022</div>
+								<div className="work-duration">November 2020 - October 2022</div>
 							</div>
 						</div>
 					</div>
